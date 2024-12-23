@@ -1,0 +1,25 @@
+$small-margin: 18px;
+$medium-margin: 28px;
+$large-margin: 48px;
+
+$small-font: 18px;
+$medium-font: 28px;
+$large-font: 38px;
+
+header {
+	display: flex;  // Enable flexbox
+  	justify-content: space-between; // Distribute items with space between
+  	align-items: center;  // Align items vertically in the center
+	margin-top: $medium-margin;
+
+	.nav-bar {
+		a {
+			text-decoration: none;
+			color: #000000;
+		}
+		display: flex;
+		font-size: $medium-font;
+		gap: $large-margin;
+		// Remove the fixed margin and let flexbox handle alignment
+	}
+}
