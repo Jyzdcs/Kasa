@@ -2,7 +2,10 @@ $small-margin: 18px;
 $medium-margin: 28px;
 $large-margin: 96px;
 
-.main-container {
-	margin-left: $large-margin;
-	margin-right: $large-margin;
+
+body{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+	height: 100%;
 }

@@ -1,0 +1,73 @@
+.infos-of-house {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.house-infos {
+		display: grid;
+		
+		.title {
+			color: #ff6060;
+			margin: 0;
+			font-size: 38px;
+			font-weight: 100;
+		}
+
+		h5 {
+			margin: 5px 0px 0px 0px;
+			font-size: 18px;
+			font-weight: 400;
+		}
+
+		.tags {
+			display: flex;
+			margin-top: 25px;
+			color: white;
+			gap: 10px;
+
+			span {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				font-size: 15px;
+				background-color: #ff6060;
+				border-radius: 10px;
+				height: 35px;
+				width: 120px;
+			}
+		}
+	}
+
+	.owner-infos {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		
+		.owner-pic {
+			height: 70px;
+			border-radius: 50%;
+		}
+
+		h3 {
+			color: #ff6060;
+			text-align: end;
+			width: 70px;
+			font-weight: 300;
+		}
+	}
+
+	.start-container {
+		display: flex;
+		justify-content: space-between;
+
+		.fa {
+			font-size: 25px;
+		}
+
+		.checked {
+			color: #ff6060;
+		}
+	}
+}

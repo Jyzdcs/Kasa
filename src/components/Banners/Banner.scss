@@ -1,8 +1,10 @@
 $small-margin: 18px;
 $medium-margin: 28px;
-$large-margin: 48px;
+$large-margin: 70px;
 
 .banner-container {
+	margin-left: $large-margin;
+	margin-right: $large-margin;
 	display: flex;
 	margin-top: $large-margin;
 	align-items: center;

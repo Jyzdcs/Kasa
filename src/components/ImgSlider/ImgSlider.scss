@@ -1,0 +1,35 @@
+.img-slider {
+
+	position: relative;
+	margin-top: 50px;
+	height: 450px;
+
+	.house-img {
+		height: 100%;
+		width: 100%;
+		border-radius: 25px;
+		object-fit: cover;
+	}
+
+	.img-index {
+		position: absolute;
+		font-size: 20px;
+		top: 85%;
+		left: 50%;
+		color: white;			
+	}
+
+	.left-arrow {
+		position: absolute;
+		height: 80px;
+		top: 180px;
+		left: 30px;
+	}
+
+	.right-arrow {
+		position: absolute;
+		height: 80px;
+		top: 180px;
+		right: 30px;
+	}
+}

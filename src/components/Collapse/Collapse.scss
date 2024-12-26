@@ -1,0 +1,65 @@
+p {
+	margin: 0;
+}
+
+.container-of-collapse {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	gap: 100px;
+
+	.collapse {
+		width: 100%;
+
+		.title-and-btn {
+			border-radius: 5px 5px 0 0;
+			background-color: #ff6060;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 40px;
+
+			.description-title {
+				margin-left: 10px;
+				color: white;
+				font-size: 20px;
+				font-weight:500;
+			}
+
+			.toggle-btn {
+				transition: transform 0.3s ease-in-out;
+				margin-right: 10px;
+			}
+		}
+
+		.transit {
+			border-radius: 0 0 5px 5px;
+			background-color: rgba(235, 234, 234, 0.462);
+			overflow: hidden;
+			transition: max-height 0.8s ease;
+
+			.wrapper {
+				padding: 20px;
+			}
+		}
+	}	
+}
+
+.close {
+	max-height: 0px;
+}
+
+.open {
+	max-height: 200px;
+}
+
+.rotate {
+	transform: rotate(-0.5turn); /* Rotates 180 degrees */
+	transition: transform 0.3s ease-in-out; /* Fixed transition */
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 8px;
+}

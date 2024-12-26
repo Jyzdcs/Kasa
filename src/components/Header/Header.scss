@@ -1,12 +1,14 @@
 $small-margin: 18px;
 $medium-margin: 28px;
-$large-margin: 48px;
+$large-margin: 70px;
 
 $small-font: 18px;
 $medium-font: 28px;
 $large-font: 38px;
 
 header {
+	margin-left: $large-margin;
+	margin-right: $large-margin;
 	display: flex;  // Enable flexbox
   	justify-content: space-between; // Distribute items with space between
   	align-items: center;  // Align items vertically in the center
