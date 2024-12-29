@@ -1,5 +1,8 @@
-.img-slider {
+$small-margin: 18px;
+$medium-margin: 28px;
+$large-margin: 70px;
 
+.img-slider {
 	position: relative;
 	margin-top: 50px;
 	height: 450px;
@@ -31,5 +34,41 @@
 		height: 80px;
 		top: 180px;
 		right: 30px;
+	}
+}
+
+@media (max-width: 425px) {
+	.img-slider {
+		margin-top: 30px;
+		height: 350px;
+		
+		.house-img {
+			height: 100%;
+			width: 100%;
+			border-radius: 25px;
+			object-fit: cover;
+		}
+
+		.img-index {
+			position: absolute;
+			font-size: 20px;
+			top: 85%;
+			left: 50%;
+			color: white;			
+		}
+	
+		.left-arrow {
+			position: absolute;
+			height: 40px;
+			top: 45%;
+			left: 30px;
+		}
+	
+		.right-arrow {
+			position: absolute;
+			height: 40px;
+			top: 45%;
+			right: 30px;
+		}
 	}
 }

@@ -6,7 +6,7 @@ export default function Banner() {
 		<header className="header">
 			<span>
 				<Link to="/">
-					<img src="/src/assets/LOGO-Medium.png" alt="Logo of Kasa" />
+					<img className="logo" src="/src/assets/LOGO-Medium.png" alt="Logo of Kasa" />
 				</Link>
 			</span>
 			<span className="nav-bar">

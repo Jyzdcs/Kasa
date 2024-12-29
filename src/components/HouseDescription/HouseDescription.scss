@@ -71,3 +71,72 @@
 		}
 	}
 }
+
+@media (max-width: 425px) {
+	.infos-of-house {
+		display: grid;
+		position: relative;
+		width: 100%;
+
+		.house-infos {
+			.title {
+				font-size: 29px;
+			}
+	
+			h5 {
+				font-size: 16px;
+			}
+	
+			.tags {
+				margin-top: 12px;
+
+				span {
+					height: 25px;
+				}
+			}
+		}
+	
+		.container-start_owner {
+			margin-top: 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			gap: 110px;
+
+
+			.owner-infos {
+				display: flex;
+				align-items: center;
+				gap: 10px;
+				
+				.owner-pic {
+					height: 70px;
+					border-radius: 50%;
+				}
+		
+				h3 {
+					color: #ff6060;
+					text-align: end;
+					width: 70px;
+					font-weight: 300;
+				}
+			}
+		
+			.start-container {
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+		
+				.fa {
+					font-size: 25px;
+				}
+		
+				.checked {
+					color: #ff6060;
+				}
+			}
+		}
+		
+	}	
+}

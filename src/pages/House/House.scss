@@ -1,7 +1,18 @@
+$small-margin: 18px;
+$medium-margin: 28px;
+$large-margin: 70px;
+
 .main-container {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	display: grid;
 	align-items: center;  // Centers items vertically within the grid
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: $large-margin;
+	margin-right: $large-margin;
+}
+
+@media (max-width: 425px) {
+	.main-container {
+		margin-left: $small-margin;
+		margin-right: $small-margin;
+	}
 }

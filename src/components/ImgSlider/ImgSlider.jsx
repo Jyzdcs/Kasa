@@ -16,8 +16,11 @@ export default function ImgSlider(props) {
 				alt='Left arrow'
 				className='left-arrow'
 				onClick={() => {
+					if (img.length === 1) {
+						return
+					}
 					if (imgIndex === 0) {
-						setImgIndex(4);
+						setImgIndex(img.length - 1);
 					}
 					else {
 						setImgIndex(imgIndex - 1);

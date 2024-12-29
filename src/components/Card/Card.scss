@@ -43,3 +43,12 @@ $large-margin: 70px;
 		}
 	}
 }
+
+@media (max-width: 425px) {
+	.container {
+		margin-left: $small-margin;
+		margin-right: $small-margin;
+		margin-top: 50px;
+		padding: 0px 0px 0px 0px;
+	}	
+}

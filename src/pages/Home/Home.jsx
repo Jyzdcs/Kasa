@@ -1,6 +1,6 @@
-import Card from "../components/Card/Card"
-import Banner from "../components/Banners/Banner"
-import "./style.scss"
+import Card from "/src/components/Card/Card"
+import Banner from "/src/components/Banners/Banner"
+import "../style.scss"
 
 export default function Home() {
 	return (

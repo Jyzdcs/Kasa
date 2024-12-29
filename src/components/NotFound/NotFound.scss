@@ -1,0 +1,21 @@
+.not-found {
+	display: grid;
+	text-align: center;
+	font-family:Montserrat, sans-serif;
+
+	.num-404 {
+		color: #ff6060;
+		font-size: 280px;
+		margin: 70px 0px 50px 0px;
+	}
+	
+	h4 {
+		font-size: 25px;
+		margin: 30px 0px 70px 0px;
+		color: #ff6060;
+	}
+
+	.redirect {
+		color: black;
+	}
+}

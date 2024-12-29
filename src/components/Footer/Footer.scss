@@ -1,4 +1,6 @@
 .footer-container {
+	position: absolute;
+	bottom: auto;
 	display: grid;
 	justify-content: center;
 	place-items: center;
@@ -6,6 +8,7 @@
 	height: 200px;
 	margin-top: 100px;
 	background-color: black;
+
 	.footer {
 		margin: 0;
 		padding-top: 35px;
@@ -17,3 +20,4 @@
 		color: white;
 	}
 }
+

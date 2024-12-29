@@ -23,7 +23,7 @@ export default function HouseDescription(props) {
 					}
 				</div>
 			</div>
-			<div>
+			<div className="container-start_owner">
 				<div className='owner-infos'>
 					<h3>{props.houseData.host.name}</h3>
 					<img className='owner-pic' src={props.houseData.host.picture} alt="owner pic"/>
