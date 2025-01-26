@@ -34,8 +34,6 @@ Voici un aperçu de l'organisation des fichiers :
 
 ```plaintext
 📦 Kasa
-├── 📂 public
-│   └── index.html
 ├── 📂 src
 │   ├── 📂 assets          // Images et ressources statiques
 │   ├── 📂 components      // Composants réutilisables
