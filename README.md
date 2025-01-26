@@ -42,11 +42,11 @@ Voici un aperçu de l'organisation des fichiers :
 🌟 Fonctionnalités principales
 
 1. Page d’accueil :
-   Liste des logements avec une vignette (image, titre).
+   - Liste des logements avec une vignette (image, titre).
    Design semi-responsive.
-3. Page “À propos” :
+4. Page “À propos” :
    Présentation de l’entreprise Kasa avec des informations détaillées.
-4. Page détail d’un logement :
+5. Page détail d’un logement :
    Informations sur le logement : description, équipements, photos.
    Carrousel d’images interactif.
    Affichage de la note sous forme d’étoiles.
