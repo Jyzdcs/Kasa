@@ -47,24 +47,24 @@ Voici un aperçu de l'organisation des fichiers :
 
 🌟 Fonctionnalités principales
 
-	1.	Page d’accueil :
-	•	Liste des logements avec une vignette (image, titre).
-	•	Design responsive.
-	2.	Page “À propos” :
-	•	Présentation de l’entreprise Kasa avec des informations détaillées.
-	3.	Page détail d’un logement :
-	•	Informations sur le logement : description, équipements, photos.
-	•	Carrousel d’images interactif.
-	•	Affichage de la note sous forme d’étoiles.
-	4.	Gestion des erreurs 404 :
-	•	Affichage d’une page dédiée en cas de route inexistante.
+1. Page d’accueil :
+	Liste des logements avec une vignette (image, titre).
+	Design semi-responsive.
+2. Page “À propos” :
+	• Présentation de l’entreprise Kasa avec des informations détaillées.
+3. Page détail d’un logement :
+	• Informations sur le logement : description, équipements, photos.
+	• Carrousel d’images interactif.
+	• Affichage de la note sous forme d’étoiles.
+4.Gestion des erreurs 404 :
+	• Affichage d’une page dédiée en cas de route inexistante.
 
 💻 Comment lancer le projet ?
 1. Clone le dépôt :
-```bash
-git clone https://github.com/Jyzdcs/Kasa.git
-cd Kasa
-```
+   ```bash
+   git clone https://github.com/Jyzdcs/Kasa.git
+   cd Kasa
+   ```
 2. Installer les dépendances
    ```bash
    npm install
