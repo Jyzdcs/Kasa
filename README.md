@@ -60,10 +60,17 @@ Voici un aperçu de l'organisation des fichiers :
 	•	Affichage d’une page dédiée en cas de route inexistante.
 
 💻 Comment lancer le projet ?
-1.	Clone le dépôt :
+1. Clone le dépôt :
 ```bash
-git clone https://github.com/ton-utilisateur/kasa.git
-cd kasa
+git clone https://github.com/Jyzdcs/Kasa.git
+cd Kasa
 ```
-
-test
+2. Installer les dépendances
+   ```bash
+   npm install
+   ```
+3. Lancer le serveur :
+   ```bash
+   npm start
+   ```
+4. Ouvrir le navigateur sur http://localhost3000
