@@ -39,21 +39,20 @@ Voici un aperçu de l'organisation des fichiers :
 └── yarn.lock
 ```
 
-🌟 Fonctionnalités principales
-
+## 🌟 Fonctionnalités principales
 1. Page d’accueil :
    - Liste des logements avec une vignette (image, titre).
-   Design semi-responsive.
+   - Design semi-responsive.
 4. Page “À propos” :
-   Présentation de l’entreprise Kasa avec des informations détaillées.
+   - Présentation de l’entreprise Kasa avec des informations détaillées.
 5. Page détail d’un logement :
-   Informations sur le logement : description, équipements, photos.
-   Carrousel d’images interactif.
-   Affichage de la note sous forme d’étoiles.
+   - Informations sur le logement : description, équipements, photos.
+   - Carrousel d’images interactif.
+   - Affichage de la note sous forme d’étoiles.
 4.Gestion des erreurs 404 :
-   Affichage d’une page dédiée en cas de route inexistante.
+   - Affichage d’une page dédiée en cas de route inexistante.
 
-💻 Comment lancer le projet ?
+## 💻 Comment lancer le projet ?
 1. Clone le dépôt :
    ```bash
    git clone https://github.com/Jyzdcs/Kasa.git
