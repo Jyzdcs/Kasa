@@ -38,8 +38,6 @@ Voici un aperçu de l'organisation des fichiers :
 │   ├── 📂 assets          // Images et ressources statiques
 │   ├── 📂 components      // Composants réutilisables
 │   ├── 📂 pages           // Pages principales de l'application
-│   ├── 📂 styles          // Fichiers SCSS
-│   ├── 📂 utils           // Fonctions et données utilitaires
 │   └── index.js           // Point d'entrée de l'application
 ├── .gitignore
 ├── package.json
