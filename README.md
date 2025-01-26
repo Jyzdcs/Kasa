@@ -43,6 +43,7 @@ Voici un aperçu de l'organisation des fichiers :
 ├── package.json
 ├── README.md
 └── yarn.lock
+```
 
 🌟 Fonctionnalités principales
 
